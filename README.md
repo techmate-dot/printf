@@ -30,9 +30,7 @@ Otherwise, the command simply prints whatever string is directly written into it
 within double quotation marks.
 
 ## AUTHOR
-	Written by Samuel Nwankwo && Nwachukwu Chizaram
+	Written by Samuel Nwankwo && Nwachukwu Chizaram Promise
 
 ## GIT REPO
-    	https://github.com/techmate-dot/printf
-	
-	
+    	https://github.com/techmate-dot/printf	
