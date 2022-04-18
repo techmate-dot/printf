@@ -30,16 +30,3 @@ for (i = 0; str[i] != '\0'; i++)
 }
 return (i);
 }
-
-
-/**
- *print_percent - prints string
- *@arg_list: The list of arguments passed from printf.
- *Return: returns the number cont of characters.
- */
-
-int print_percent(__attribute__((unused))va_list list)
-{
-_write_char('%');
-return (1);
-}
