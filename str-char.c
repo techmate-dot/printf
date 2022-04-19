@@ -28,5 +28,5 @@ for (i = 0; str[i] != '\0'; i++)
 {
 	_write_char(str[i]);
 }
-return (i);
+return (i - 1);
 }
