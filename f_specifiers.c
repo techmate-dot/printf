@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_write_char.c"
 
 /**
  * print_percent - Prints a percent symbol

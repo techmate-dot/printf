@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include "other_functions.c"
 int hex_check(int, char);
 
 /**
