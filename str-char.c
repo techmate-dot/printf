@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdarg.h>
 
 /**
  *print_char - Prints a char.
@@ -28,5 +27,5 @@ for (i = 0; str[i] != '\0'; i++)
 {
 	_write_char(str[i]);
 }
-return (i - 1);
+return (i);
 }

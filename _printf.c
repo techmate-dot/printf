@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
  *_printf - prints to stdout
  *@format: string
@@ -17,14 +17,16 @@ conver_t f_list[] = {
 	{"%", print_percent},
 	{"d", print_integer},
 	{"i", print_integer},
+	{"b", print_binary},
 	{"u", unsigned_integer},
+	{"o", print_octal},
 	{"x", print_hex},
 	{"X", print_heX},
 	{NULL, NULL}
 };
 
 if (format == NULL)
-	exit(1);
+	exit(56);
 va_start(arg_list, format);
 char_count = parser(format, f_list, arg_list);
 return (char_count);

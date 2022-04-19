@@ -110,4 +110,4 @@ Unknown:[%r]
 	Written by Samuel Nwankwo && Nwachukwu Chizaram Promise
 
 ## GIT REPO
-    	https://github.com/techmate-dot/printf	
+    	https://github.com/techmate-dot/printf
