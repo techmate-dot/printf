@@ -1,18 +1,19 @@
+Man 3 "19 April 2022" "_printf man page"
 # _printf
 ## The c standard printf function clone
 # _printf
 
 ## NAME
-	_printf - formats and prints data, with the ability to call certain
-	conversion characters
+        _printf - formats and prints data, with the ability to call certain
+        conversion characters
 
 ## SYNOPSIS
-	_printf FORMAT [ARGUMENT]...
+        _printf FORMAT [ARGUMENT]...
 
 ## DESCRIPTION
-	Prints ARGUMENT(s) according to FORMAT
-	FORMAT controls the output of the function interpreting the following
-	special sequences as:
+        Prints ARGUMENT(s) according to FORMAT
+        FORMAT controls the output of the function interpreting the following
+        special sequences as:
 
 - %c: Character
 - %s: String
@@ -29,8 +30,12 @@
 Otherwise, the command simply prints whatever string is directly written into it
 within double quotation marks.
 
+## SEE ALSO
+        printf (3)
+
 ## AUTHOR
-	Written by Samuel Nwankwo && Nwachukwu Chizaram Promise
+        Written by Samuel Nwankwo && Nwachukwu Chizaram
 
 ## GIT REPO
-    	https://github.com/techmate-dot/printf	
+        https://github.com/techmate-dot/printf
+
