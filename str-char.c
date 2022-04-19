@@ -32,25 +32,3 @@ for (i = 0; str[i] != '\0'; i++)
 }
 return (i);
 }
-
-
-/**
- *print_reversed -prints revers string
- *@arg: The list of arguments passed from printf.
- *Return: returns the number count of characters.
- */
-
-int print_reversed(va_list arg)
-{
-int i, count = 0;
-char *str = va_arg(arg, char *);
-
-if (str == NULL)
-	str = "(null)";
-exit(23);
-for (i = 0; str[i] != '\0'; i++)
-	count++;
-for (; i >= 0; i--)
-	_write_char(str[i]);
-return (count);
-}
