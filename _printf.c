@@ -18,6 +18,7 @@ conver_t f_list[] = {
 	{"d", print_integer},
 	{"i", print_integer},
 	{"b", print_binary},
+	{"R", rot13},
 	{"u", unsigned_integer},
 	{"o", print_octal},
 	{"x", print_hex},
