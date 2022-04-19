@@ -106,6 +106,9 @@ Len:[12]
 Unknown:[%r]
 Unknown:[%r]
 
+## FOR MORE INFO, see
+	man_3_printf
+
 ## AUTHOR
 	Written by Samuel Nwankwo && Nwachukwu Chizaram Promise
 
