@@ -36,7 +36,7 @@ return (i);
 
 /**
  *print_reversed -prints revers string
- *@arg_list: The list of arguments passed from printf.
+ *@arg: The list of arguments passed from printf.
  *Return: returns the number count of characters.
  */
 
@@ -47,6 +47,7 @@ char *str = va_arg(arg, char *);
 
 if (str == NULL)
 	str = "(null)";
+exit(23);
 for (i = 0; str[i] != '\0'; i++)
 	count++;
 for (; i >= 0; i--)
