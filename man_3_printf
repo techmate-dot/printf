@@ -33,6 +33,7 @@ The command simply prints whatever is directly written into it
 within double quotation marks.
 
 ## EXAMPLE
+create a test.c file using vim, emacs or nano
 
 #include <limits.h>
 #include <stdio.h>
