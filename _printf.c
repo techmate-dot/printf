@@ -22,6 +22,7 @@ conver_t f_list[] = {
 	{"o", print_octal},
 	{"x", print_hex},
 	{"X", print_heX},
+	{"r", print_reversed},
 	{NULL, NULL}
 };
 
